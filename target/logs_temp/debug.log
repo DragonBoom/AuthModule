@@ -1,0 +1,22 @@
+2018-09-17 22:30:29 DEBUG --- [Restlet-1279149968] (LogFactory.java:135) Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-09-17 22:30:29 DEBUG --- [Restlet-1279149968] (JdbcTransaction.java:137) Opening JDBC Connection
+2018-09-17 22:30:29 DEBUG --- [Restlet-1279149968] (JdbcTransaction.java:101) Setting autocommit to false on JDBC Connection [HikariProxyConnection@342167324 wrapping com.mysql.cj.jdbc.ConnectionImpl@31f55271]
+2018-09-17 22:30:29 DEBUG --- [Restlet-1279149968] (BaseJdbcLogger.java:159) ==>  Preparing: select session_id as sessionId, user_id as userId, deadline from session where session_id = ?; 
+2018-09-17 22:30:29 DEBUG --- [Restlet-1279149968] (BaseJdbcLogger.java:159) ==> Parameters: 337758cd-4d84-4e75-91fb-a6112c21173b(String)
+2018-09-17 22:31:12 DEBUG --- [Restlet-1279149968] (LogFactory.java:135) Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-09-17 22:31:12 DEBUG --- [Restlet-1279149968] (JdbcTransaction.java:137) Opening JDBC Connection
+2018-09-17 22:31:12 DEBUG --- [Restlet-1279149968] (JdbcTransaction.java:101) Setting autocommit to false on JDBC Connection [HikariProxyConnection@1115636694 wrapping com.mysql.cj.jdbc.ConnectionImpl@6b445ee1]
+2018-09-17 22:31:12 DEBUG --- [Restlet-1279149968] (BaseJdbcLogger.java:159) ==>  Preparing: select session_id as sessionId, user_id as userId, deadline from session where session_id = ?; 
+2018-09-17 22:31:12 DEBUG --- [Restlet-1279149968] (BaseJdbcLogger.java:159) ==> Parameters: 337758cd-4d84-4e75-91fb-a6112c21173b(String)
+2018-09-17 22:31:12 DEBUG --- [Restlet-1279149968] (BaseJdbcLogger.java:159) <==      Total: 0
+2018-09-17 22:31:29 DEBUG --- [Restlet-209833425] (LogFactory.java:135) Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-09-17 22:31:29 DEBUG --- [Restlet-209833425] (JdbcTransaction.java:137) Opening JDBC Connection
+2018-09-17 22:31:29 DEBUG --- [Restlet-209833425] (JdbcTransaction.java:101) Setting autocommit to false on JDBC Connection [HikariProxyConnection@1933869115 wrapping com.mysql.cj.jdbc.ConnectionImpl@3804c42]
+2018-09-17 22:31:29 DEBUG --- [Restlet-209833425] (BaseJdbcLogger.java:159) ==>  Preparing: select session_id as sessionId, user_id as userId, deadline from session where session_id = ?; 
+2018-09-17 22:31:29 DEBUG --- [Restlet-209833425] (BaseJdbcLogger.java:159) ==> Parameters: 337758cd-4d84-4e75-91fb-a6112c21173b(String)
+2018-09-17 22:31:30 DEBUG --- [Restlet-209833425] (BaseJdbcLogger.java:159) <==      Total: 0
+2018-09-17 22:32:06 DEBUG --- [Restlet-209833425] (JdbcTransaction.java:137) Opening JDBC Connection
+2018-09-17 22:32:06 DEBUG --- [Restlet-209833425] (JdbcTransaction.java:101) Setting autocommit to false on JDBC Connection [HikariProxyConnection@2098360077 wrapping com.mysql.cj.jdbc.ConnectionImpl@45e88f0f]
+2018-09-17 22:32:06 DEBUG --- [Restlet-209833425] (BaseJdbcLogger.java:159) ==>  Preparing: select session_id as sessionId, user_id as userId, deadline from session where session_id = ?; 
+2018-09-17 22:32:06 DEBUG --- [Restlet-209833425] (BaseJdbcLogger.java:159) ==> Parameters: 337758cd-4d84-4e75-91fb-a6112c21173b(String)
+2018-09-17 22:32:06 DEBUG --- [Restlet-209833425] (BaseJdbcLogger.java:159) <==      Total: 0

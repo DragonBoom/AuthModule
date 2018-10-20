@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "indi.auth.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'indi.auth.datasource.username'"
+  },
+  {
+    "name": "indi.auth.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'indi.auth.datasource.password'"
+  },
+  {
+    "name": "indi.auth.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'indi.auth.datasource.driver-class-name'"
+  },
+  {
+    "name": "indi.auth.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'indi.auth.datasource.url'"
+  }
+]}
